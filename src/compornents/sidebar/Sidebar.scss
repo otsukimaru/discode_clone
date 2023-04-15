@@ -2,7 +2,7 @@
     display: flex;
     flex: 0.35;
     height: 100vh;
-    background-color: #393943;
+    // background-color: #393943;
 
     .sidebarLeft{
         display: flex;
@@ -30,6 +30,7 @@
         background-color: #303136;
         width: 300px;
         position: relative;
+        flex-grow: 1;
         .sidebarTop{
             color: #fff;
             display: flex;
